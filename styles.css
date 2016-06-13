@@ -1,9 +1,79 @@
-body {
 /*
+	* { outline: 1px solid red; }
+
+*/
+
+* { margin:0; padding:0;  }
+
+h1{
+	background-image: url("Mexico_flag-wide.jpg");
+	background-size: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+
+#mexico{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-size: 300%;
+}
+
+
+nav{
+/*	background-color: #CE1126; */
+	  background-color: #006847;	
+	height: 70px;
+}
+
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+}
+
+li a:hover {
+ /*   background-color: #006847;*/	
+    background-color: #CE1126;
+
+}
+
+li a{
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 175%;
+	padding: 20px;	
+/*	background-color: #CE1126;
+		background-color: #CE1126;
+*/
+	overflow: hidden;
+}
+
+
+main{
 	background-image: url("Mexico-2016-Copa-America-Kit.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-*/
+	height: 500px;
 }
 
-* { outline: 1px solid red; }
+footer{
+	text-align: center;
+}
+
+
+table#table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+h3{
+	text-align: center;
+}
